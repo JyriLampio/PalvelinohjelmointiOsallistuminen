@@ -35,6 +35,6 @@ public String returnContacInfoe(){
 @RequestMapping("hello")
 @ResponseBody
 public String helloPage(@RequestParam(name="location", required=false, defaultValue = "World Citizen") String location, @RequestParam(name="name") String name){
-	return "Welcome to the " + location + " " + name;
+	return "Welcome to the " + location + " " + name + ". You are Loved!";
 	}
 }
